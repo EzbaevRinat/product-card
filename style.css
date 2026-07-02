@@ -69,15 +69,17 @@ font-size: 20px;
 line-height: 24px;
 font-weight: 700;
 padding-top: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-
 .rouble {
   font-family: "Montserrat";
 color:#515076;
 font-size: 20px;
 line-height: 24px;
 font-weight: 400;
-padding-left: 158px;
+
 }
 
 
