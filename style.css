@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+     background-image: url("image/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-position: 30%   0%;
+    background-size: 790px 697px;
+}
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+   
+
+}
+
+.cards {
+    width: 340px;
+    border: 1px solid #2c297c;
+    background-color:#dadae2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #515076;
+}
+
+.main-text {
+  font-family: "Montserrat";
+color: #515076;
+font-size: 13px;
+line-height: 18px;
+}
+
+.normal{
+  font-family: "Montserrat";
+color:#A5A3B9;
+font-size: 12px;
+height: 24px;
+line-height: 24px;
+font-weight: 400;
+}
+
+.name-cards{
+font-family: "Montserrat";
+color:#515076;
+font-size: 20px;
+line-height: 27px;
+font-weight: 700;
+}
+
+.price {
+  font-family: "Montserrat";
+color:#515076;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+padding-top: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.rouble {
+  font-family: "Montserrat";
+color:#515076;
+font-size: 20px;
+line-height: 24px;
+font-weight: 400;
+
+}
+
+
+.product-lists{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
