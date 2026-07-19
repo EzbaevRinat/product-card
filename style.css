@@ -17,14 +17,6 @@ body {
   margin: 0 auto;
 }
 
-.cards {
-  width: 340px;
-  border: 1px solid #2c297c;
-  background-color: #dadae2;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 .title {
   font-family: "Montserrat";
   font-size: 70px;
@@ -36,14 +28,29 @@ body {
   color: #515076;
 }
 
-.main-text {
+.card {
+  width: 340px;
+  border: 1px solid #2c297c;
+  background-color: #dadae2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card__description{
   font-family: "Montserrat";
   color: #515076;
   font-size: 13px;
   line-height: 18px;
 }
 
-.category {
+.card__composition{
+  font-family: "Montserrat";
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.card__category {
   font-family: "Montserrat";
   color: #a5a3b9;
   font-size: 12px;
@@ -53,7 +60,7 @@ body {
   text-transform: uppercase;
 }
 
-.name-cards {
+.card__name {
   font-family: "Montserrat";
   color: #515076;
   font-size: 20px;
@@ -61,7 +68,8 @@ body {
   font-weight: 700;
 }
 
-.product-price {
+
+.card__price {
   font-family: "Montserrat";
   color: #515076;
   font-size: 20px;
@@ -72,7 +80,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.rouble {
+
+.card__rouble {
   font-family: "Montserrat";
   color: #515076;
   font-size: 20px;
@@ -80,8 +89,17 @@ body {
   font-weight: 400;
 }
 
-.product-lists {
-  list-style: none;
+
+.card__text {
+  font-family: "Montserrat";
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+  margin:5px;
+}
+
+.card__list {
+  list-style-type: circle;
   margin: 0;
-  padding: 0;
+  padding-left: 10px;
 }
