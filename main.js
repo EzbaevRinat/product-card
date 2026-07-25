@@ -41,10 +41,6 @@ const outputLogButton = document.querySelector(".output-consol-log");
 
 outputLogButton.addEventListener("click", () => outputConsoleLog("Д/З №4"));
 
-function outputConsoleLog(massage) {
-  alert(massage);
-  console.log(massage);
-}
 //outputConsoleLog('Д/З №4')
 
 //Вывод в консоль заголовка
@@ -52,8 +48,8 @@ const contentTitle = document.querySelector(".title");
 contentTitle.addEventListener("mouseover", () => {
   outputConsoleLog(contentTitle.textContent);
 });
-function outputConsoleLog(massage) {
-  console.log(massage);
+function outputConsoleLog(message) {
+  console.log(message);
 }
 
 // Изменение цвета кнопки
