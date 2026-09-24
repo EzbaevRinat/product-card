@@ -28,6 +28,14 @@ body {
   color: #515076;
 }
 
+.change-color-button{
+  background-color: #a5a3b9;
+}
+
+.orange {
+  background-color: orange;
+}
+
 .card {
   width: 340px;
   border: 1px solid #2c297c;
